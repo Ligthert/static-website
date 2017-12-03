@@ -1,0 +1,24 @@
+site_name: Ligthert Online
+pages:
+  - Home: index.md
+  - Notes:
+    - Dtrace: notes/dtrace.md
+    - ElasticSearch: notes/elasticsearch.md
+    - Shells: notes/shells.md
+    - Solaris: notes/solaris.md
+    - Git: notes/git.md
+    - SaltStack: notes/saltstack.md
+    - MySQL: notes/mysql.md
+    - OpenSSL: notes/openssl.md
+    - Systemd: notes/systemd.md
+    - Docker: notes/docker.md
+  - Gaming:
+    - ArmA scripting: gaming/arma.md
+    - DCS World: gaming/dcsw.md
+    - KillingFloor: gaming/kf.md
+  - Misc:
+    - Quotes: misc/quotes.md
+    - Teamspeak: misc/teamspeak.md
+  - About: about.md
+theme: readthedocs
+google_analytics: ['UA-110465380-1','sacha.ligthert.net']
