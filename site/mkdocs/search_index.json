@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to Ligthert Online\n\n\nThis is \nmy\n homepage. More of a public viewable notepad than a homepage in the hope to support geeks and gamers alike with anything I can publish.\n\n\nNotes\n\n\n\n\nDtrace\n\n\nElasticSearch\n\n\nShells\n\n\nSolaris\n\n\ngit\n\n\nSaltStack\n\n\nMySQL\n\n\nOpenSSL\n\n\nSystemd\n\n\nDocker\n\n\n\n\nGaming\n\n\n\n\nARMA Scripting\n\n\nDCS World\n\n\nKillingFloor\n\n\n\n\nMisc\n\n\n\n\nCollected Quotes\n\n\nPlaying with Teamspeak\n\n\n\n\n( note to self: put this nice website behind CloudFront and put the source files in some repo )",
+            "text": "Welcome to Ligthert Online\n\n\nThis is \nmy\n homepage. More of a public viewable notepad than a homepage in the hope to support geeks and gamers alike with anything I can publish.\n\n\nNotes\n\n\n\n\nDtrace\n\n\nElasticSearch\n\n\nShells\n\n\nSolaris\n\n\ngit\n\n\nSaltStack\n\n\nMySQL\n\n\nOpenSSL\n\n\nSystemd\n\n\nDocker\n\n\nAWSS3\n\n\n\n\nGaming\n\n\n\n\nARMA Scripting\n\n\nDCS World\n\n\nKillingFloor\n\n\n\n\nMisc\n\n\n\n\nCollected Quotes\n\n\nPlaying with Teamspeak\n\n\n\n\n( note to self: put this nice website behind CloudFront and put the source files in some repo )",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#notes",
-            "text": "Dtrace  ElasticSearch  Shells  Solaris  git  SaltStack  MySQL  OpenSSL  Systemd  Docker",
+            "text": "Dtrace  ElasticSearch  Shells  Solaris  git  SaltStack  MySQL  OpenSSL  Systemd  Docker  AWSS3",
             "title": "Notes"
         },
         {
@@ -249,6 +249,16 @@
             "location": "/notes/docker/#clean-up-docker-hostdelete-everything",
             "text": "docker rm -f $(docker ps -a | awk \"{print \\$1}\")\ndocker rmi -f $(docker images | awk \"{print \\$3}\")\ndocker run -v /var/run/docker.sock:/var/run/docker.sock -v /data/docker:/var/lib/docker --rm martin/docker-cleanup-volumes",
             "title": "Clean up docker host/Delete everything"
+        },
+        {
+            "location": "/aws/s3/",
+            "text": "Simple permission to S3 buckets\n\n\n{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Sid\": \"Statement\",\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"s3:ListBucket\",\n                \"s3:GetObject\",\n                \"s3:DeleteObject\",\n                \"s3:PutObject\"\n            ],\n            \"Resource\": [\n                \"arn:aws:s3:::<bucket>/*\",\n                \"arn:aws:s3:::<bucket>\"\n            ]\n        }\n    ]\n}",
+            "title": "AWS-S3"
+        },
+        {
+            "location": "/aws/s3/#simple-permission-to-s3-buckets",
+            "text": "{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Sid\": \"Statement\",\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"s3:ListBucket\",\n                \"s3:GetObject\",\n                \"s3:DeleteObject\",\n                \"s3:PutObject\"\n            ],\n            \"Resource\": [\n                \"arn:aws:s3:::<bucket>/*\",\n                \"arn:aws:s3:::<bucket>\"\n            ]\n        }\n    ]\n}",
+            "title": "Simple permission to S3 buckets"
         },
         {
             "location": "/gaming/arma/",

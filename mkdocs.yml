@@ -12,6 +12,7 @@ pages:
     - OpenSSL: notes/openssl.md
     - Systemd: notes/systemd.md
     - Docker: notes/docker.md
+    - AWS-S3: aws/s3.md
   - Gaming:
     - ArmA scripting: gaming/arma.md
     - DCS World: gaming/dcsw.md

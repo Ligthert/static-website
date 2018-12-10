@@ -13,6 +13,7 @@ This is [my](about.md) homepage. More of a public viewable notepad than a homepa
 * [OpenSSL](notes/openssl.md)
 * [Systemd](notes/systemd.md)
 * [Docker](notes/docker.md)
+* [AWSS3](aws/s3.md)
 
 ## Gaming
 * [ARMA Scripting](gaming/arma.md)
