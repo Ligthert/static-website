@@ -24,4 +24,4 @@ This is [my](about.md) homepage. More of a public viewable notepad than a homepa
 * [Collected Quotes](misc/quotes.md)
 * [Playing with Teamspeak](misc/teamspeak.md)
 
-( note to self: put this nice website behind CloudFront and put the source files in some repo )
+( note to self: put this nice website behind CloudFront )
