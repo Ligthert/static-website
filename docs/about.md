@@ -6,9 +6,11 @@ Hi, I am Sacha Ligthert. A 30+ Systems Administrator from Amsterdam.
 During the day I work at [The New Motion B.V.](http://newmotion.com/) to beat anything in submission that comes my way. This ranges from faulty EC2 instances, running docker containers running in DC/OS, dealing with AWS oddness and the rare wifi network.
 
 During the evening I am doing most likely one of the following things:
+
+* Hanging out with friends
 * Exploring new technologies
+* Having fun at the pool/gym (when possible)
 * Playing video games
-* Hugging my wife
 * Making time-lapses of random processes
 
 ## Skills and Experiences
