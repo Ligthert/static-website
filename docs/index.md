@@ -13,6 +13,7 @@ This is [my](about.md) homepage. More of a public viewable notepad than a homepa
 * [OpenSSL](notes/openssl.md)
 * [Systemd](notes/systemd.md)
 * [Docker](notes/docker.md)
+* [AWS Certified Solutions Architect - Associate](aws/csaa.md)
 * [AWSS3](aws/s3.md)
 
 ## Gaming
