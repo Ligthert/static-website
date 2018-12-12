@@ -368,4 +368,4 @@ Enabling profile debug
     highhead [6:44 PM] Additionally you can use [_pos,_radius,[CQB_Regular]] spawn ALiVE_fnc_removeCQBpositions to remove active CQB areas.
 
 # Function Libraries
-[https://github.com/Wolfenswan/ws_fnc](Wolfswan), includes a chaching module of some sorts.
+* [Wolfswan](https://github.com/Wolfenswan/ws_fnc), includes a chaching module of some sorts.
