@@ -5,6 +5,8 @@
 
 The true guidance of what you need to do and what you need to know can be found [here](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 
+I've used [this useful image](https://robertleggett.files.wordpress.com/2018/11/aws-solution-architect-associate.png) with [this blog post](http://jayendrapatil.com/aws-solutions-architect-associate-feb-2018-exam-learning-path/). It helped me out a lot during the exam! :D
+
 ### PDFs
 * [AWS Cloud Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 * [AWS Well-Architected Framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
